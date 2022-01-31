@@ -1,0 +1,33 @@
+.app__quick-search_card {
+  width: 360px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.app__quick-search_card img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.app__quick-search_type-title-text {
+  margin: 25px 20px 25px 29px;
+}
+
+.app__quick-search_type-title-text .app__quick-search_title {
+  color: var(--color-blue);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.app__quick-search_type-title-text .app__quick-search_type-text {
+  color: var(--color-grey);
+  font-size: 14px;
+  line-height: 1.5;
+}

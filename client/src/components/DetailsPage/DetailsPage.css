@@ -1,0 +1,171 @@
+.app__details {
+  margin: 52px 123px 40px 113px;
+}
+
+.app__details-image {
+  width: 100%;
+  height: 352px;
+  position: relative;
+  z-index: 1;
+}
+
+.app__details-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app__details-image .app__details-image_open {
+  width: 242px;
+  height: 48px;
+  padding: 11px 0 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.88;
+  position: absolute;
+  right: 27px;
+  bottom: 24px;
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 3px;
+  background-color: #fff;
+  color: var(--color-blue);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.app__details-image .app__details-image_open:hover {
+  opacity: 1;
+}
+
+.app__details-detail h1 {
+  margin: 40px 0 22px 0;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.53;
+  color: var(--color-blue);
+}
+
+/* 77.5 height weight 100% */
+.app__details-detail .app__details-overview_contact-order_place {
+  width: 100%;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px var(--color-border-dash);
+}
+
+.app__details-overview_contact {
+  display: flex;
+  align-items: flex-end;
+}
+
+.app__details-overview {
+  margin-right: 15px;
+}
+
+.app__details-overview,
+.app__details-contact {
+  padding: 0 24px 15px 33px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: solid 3px var(--color-red);
+}
+
+.app__details-order_place .custom-button {
+  padding: 13px 23px 12px 32px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 6px;
+  border: solid 1px transparent;
+  background-color: var(--color-red);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.app__details-order_place .custom-button:hover {
+  border: solid 1px var(--color-red);
+  background-color: #fff;
+  color: var(--color-red);
+}
+
+.app__details-overview_detail {
+  margin: 44px 0 0 0;
+}
+
+.app__details-overview_detail h2 {
+  margin: 0 0 50px 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-blue);
+}
+
+.app__details-overview_detail-cuisine,
+.app__details-overview_detail-average {
+  margin-bottom: 25px;
+  color: var(--color-blue);
+}
+
+.app__details-overview_detail-cuisine h4 {
+  margin-bottom: 11px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.app__details-overview_detail-cuisine p {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.app__details-overview_detail-average h4 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.app__details-overview_detail-average p {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.app__details-contact_detail {
+  margin: 44px 0 50px 0;
+}
+
+.app__details-contact_phone p:first-child {
+  margin-bottom: 7px;
+  font-size: 18px;
+  color: var(--color-blue);
+}
+
+.app__details-contact_phone p:last-child {
+  font-size: 18px;
+  color: var(--color-red);
+}
+
+.app__details-contact_address {
+  margin: 34px 0 0 0;
+  color: var(--color-blue);
+}
+
+.app__details-contact_address h3 {
+  margin-bottom: 7px;
+  font-size: 18px;
+}
+
+.app__details-contact_address p {
+  font-size: 16px;
+}

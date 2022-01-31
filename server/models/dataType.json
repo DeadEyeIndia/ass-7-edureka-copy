@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn.zeplin.io/60596ed6123d8208426090b9/assets/F1AC28B9-65A2-48DC-879A-D7C3CBD54D1E.png",
+    "name": "breakfast",
+    "description": "Start your day with exclusive breakfast options",
+    "meal_type": 1
+  },
+  {
+    "id": 2,
+    "image": "https://cdn.zeplin.io/60596ed6123d8208426090b9/assets/D37F2A7D-72C3-46FF-B162-98949ADEC791.png",
+    "name": "lunch",
+    "description": "Start your day with exclusive breakfast options",
+    "meal_type": 2
+  },
+  {
+    "id": 3,
+    "image": "https://cdn.zeplin.io/60596ed6123d8208426090b9/assets/D59405F0-861F-4ADD-9783-4234474D8199.png",
+    "name": "dinner",
+    "description": "Start your day with exclusive breakfast options",
+    "meal_type": 3
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.zeplin.io/60596ed6123d8208426090b9/assets/63928335-81CE-457B-A4ED-6B3DFB43D7D2.png",
+    "name": "snacks",
+    "description": "Start your day with exclusive breakfast options",
+    "meal_type": 4
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.zeplin.io/60596ed6123d8208426090b9/assets/0B4277E2-0FCC-4ADF-8018-77EF15AE5E85.png",
+    "name": "drinks",
+    "description": "Start your day with exclusive breakfast options",
+    "meal_type": 5
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.zeplin.io/60596ed6123d8208426090b9/assets/3FA3A2E6-2F03-4077-8F23-D625E5B8CB43.png",
+    "name": "nightlife",
+    "description": "Start your day with exclusive breakfast options",
+    "meal_type": 6
+  }
+]
